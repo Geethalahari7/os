@@ -1,4 +1,5 @@
-#include<stdio.h> #include<conio.h> main()
+#include<stdio.h>
+int main()
 {
 int ms, ps, nop, np, rempages, i, j, x, y, pa, offset; int s[10], fno[10][20];
 printf("\nEnter the memory size -- "); scanf("%d",&ms);
@@ -23,4 +24,4 @@ printf("\nInvalid Process or Page Number or offset"); else
 pa=fno[x][y]*ps+offset;
 printf("\nThe Physical Address is -- %d",pa);
 }
-getch();
+}
